@@ -1,0 +1,364 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'i', 'cheerio' ]
+2 info using npm@3.5.2
+3 info using node@v8.10.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData cheerio
+8 silly fetchNamedPackageData cheerio
+9 silly mapToRegistry name cheerio
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry uri https://registry.npmjs.org/cheerio
+13 verbose request uri https://registry.npmjs.org/cheerio
+14 verbose request no auth needed
+15 info attempt registry request try #1 at 11:53:47 AM
+16 verbose request id 2432a52b31f2fe3e
+17 verbose etag W/"c6a4c1a52fe8d0d496f5317c16ef4649"
+18 verbose lastModified Sun, 26 Jun 2022 13:33:56 GMT
+19 http request GET https://registry.npmjs.org/cheerio
+20 http 304 https://registry.npmjs.org/cheerio
+21 verbose headers { date: 'Fri, 08 Jul 2022 16:53:47 GMT',
+21 verbose headers   connection: 'keep-alive',
+21 verbose headers   'cf-ray': '727a568afdac9efe-DFW',
+21 verbose headers   age: '271',
+21 verbose headers   'cache-control': 'public, max-age=300',
+21 verbose headers   etag: '"c6a4c1a52fe8d0d496f5317c16ef4649"',
+21 verbose headers   'last-modified': 'Sun, 26 Jun 2022 13:33:56 GMT',
+21 verbose headers   vary: 'Accept-Encoding',
+21 verbose headers   'cf-cache-status': 'HIT',
+21 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+21 verbose headers   'x-amz-replication-status': 'COMPLETED',
+21 verbose headers   server: 'cloudflare' }
+22 silly get cb [ 304,
+22 silly get   { date: 'Fri, 08 Jul 2022 16:53:47 GMT',
+22 silly get     connection: 'keep-alive',
+22 silly get     'cf-ray': '727a568afdac9efe-DFW',
+22 silly get     age: '271',
+22 silly get     'cache-control': 'public, max-age=300',
+22 silly get     etag: '"c6a4c1a52fe8d0d496f5317c16ef4649"',
+22 silly get     'last-modified': 'Sun, 26 Jun 2022 13:33:56 GMT',
+22 silly get     vary: 'Accept-Encoding',
+22 silly get     'cf-cache-status': 'HIT',
+22 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+22 silly get     'x-amz-replication-status': 'COMPLETED',
+22 silly get     server: 'cloudflare' } ]
+23 verbose etag https://registry.npmjs.org/cheerio from cache
+24 verbose get saving cheerio to /home/vladimir/.npm/registry.npmjs.org/cheerio/.cache.json
+25 silly install normalizeTree
+26 silly loadCurrentTree Finishing
+27 silly loadIdealTree Starting
+28 silly install loadIdealTree
+29 silly cloneCurrentTree Starting
+30 silly install cloneCurrentTreeToIdealTree
+31 silly cloneCurrentTree Finishing
+32 silly loadShrinkwrap Starting
+33 silly install loadShrinkwrap
+34 silly loadShrinkwrap Finishing
+35 silly loadAllDepsIntoIdealTree Starting
+36 silly install loadAllDepsIntoIdealTree
+37 silly resolveWithNewModule cheerio@1.0.0-rc.12 checking installable status
+38 silly cache add args [ 'cheerio', null ]
+39 verbose cache add spec cheerio
+40 silly cache add parsed spec Result {
+40 silly cache add   raw: 'cheerio',
+40 silly cache add   scope: null,
+40 silly cache add   name: 'cheerio',
+40 silly cache add   rawSpec: '',
+40 silly cache add   spec: 'latest',
+40 silly cache add   type: 'tag' }
+41 silly addNamed cheerio@latest
+42 verbose addNamed "latest" is being treated as a dist-tag for cheerio
+43 info addNameTag [ 'cheerio', 'latest' ]
+44 silly mapToRegistry name cheerio
+45 silly mapToRegistry using default registry
+46 silly mapToRegistry registry https://registry.npmjs.org/
+47 silly mapToRegistry uri https://registry.npmjs.org/cheerio
+48 verbose addNameTag registry:https://registry.npmjs.org/cheerio not in flight; fetching
+49 verbose get https://registry.npmjs.org/cheerio not expired, no request
+50 silly addNameTag next cb for cheerio with tag latest
+51 silly addNamed cheerio@1.0.0-rc.12
+52 verbose addNamed "1.0.0-rc.12" is a plain semver version for cheerio
+53 silly cache afterAdd cheerio@1.0.0-rc.12
+54 verbose afterAdd /home/vladimir/.npm/cheerio/1.0.0-rc.12/package/package.json not in flight; writing
+55 verbose afterAdd /home/vladimir/.npm/cheerio/1.0.0-rc.12/package/package.json written
+56 silly fetchNamedPackageData cheerio-select
+57 silly mapToRegistry name cheerio-select
+58 silly mapToRegistry using default registry
+59 silly mapToRegistry registry https://registry.npmjs.org/
+60 silly mapToRegistry uri https://registry.npmjs.org/cheerio-select
+61 silly fetchNamedPackageData dom-serializer
+62 silly mapToRegistry name dom-serializer
+63 silly mapToRegistry using default registry
+64 silly mapToRegistry registry https://registry.npmjs.org/
+65 silly mapToRegistry uri https://registry.npmjs.org/dom-serializer
+66 silly fetchNamedPackageData domhandler
+67 silly mapToRegistry name domhandler
+68 silly mapToRegistry using default registry
+69 silly mapToRegistry registry https://registry.npmjs.org/
+70 silly mapToRegistry uri https://registry.npmjs.org/domhandler
+71 silly fetchNamedPackageData domutils
+72 silly mapToRegistry name domutils
+73 silly mapToRegistry using default registry
+74 silly mapToRegistry registry https://registry.npmjs.org/
+75 silly mapToRegistry uri https://registry.npmjs.org/domutils
+76 silly fetchNamedPackageData htmlparser2
+77 silly mapToRegistry name htmlparser2
+78 silly mapToRegistry using default registry
+79 silly mapToRegistry registry https://registry.npmjs.org/
+80 silly mapToRegistry uri https://registry.npmjs.org/htmlparser2
+81 silly fetchNamedPackageData parse5
+82 silly mapToRegistry name parse5
+83 silly mapToRegistry using default registry
+84 silly mapToRegistry registry https://registry.npmjs.org/
+85 silly mapToRegistry uri https://registry.npmjs.org/parse5
+86 silly fetchNamedPackageData parse5-htmlparser2-tree-adapter
+87 silly mapToRegistry name parse5-htmlparser2-tree-adapter
+88 silly mapToRegistry using default registry
+89 silly mapToRegistry registry https://registry.npmjs.org/
+90 silly mapToRegistry uri https://registry.npmjs.org/parse5-htmlparser2-tree-adapter
+91 verbose request uri https://registry.npmjs.org/domhandler
+92 verbose request no auth needed
+93 info attempt registry request try #1 at 11:53:47 AM
+94 verbose etag W/"398d708ca6cb9d1e4b2a07525b80e395"
+95 verbose lastModified Wed, 15 Jun 2022 21:38:34 GMT
+96 http request GET https://registry.npmjs.org/domhandler
+97 verbose request uri https://registry.npmjs.org/domutils
+98 verbose request no auth needed
+99 info attempt registry request try #1 at 11:53:47 AM
+100 verbose etag W/"712998df5ea6cb90177a755e0ab21060"
+101 verbose lastModified Wed, 15 Jun 2022 21:52:02 GMT
+102 http request GET https://registry.npmjs.org/domutils
+103 verbose request uri https://registry.npmjs.org/cheerio-select
+104 verbose request no auth needed
+105 info attempt registry request try #1 at 11:53:47 AM
+106 verbose etag W/"57c9b34132512e528c63d915c5ed6bdc"
+107 verbose lastModified Sat, 18 Jun 2022 12:09:20 GMT
+108 http request GET https://registry.npmjs.org/cheerio-select
+109 verbose request uri https://registry.npmjs.org/dom-serializer
+110 verbose request no auth needed
+111 info attempt registry request try #1 at 11:53:47 AM
+112 verbose etag W/"02f0ee269567e6bedcd59360dbeddb08"
+113 verbose lastModified Sat, 18 Jun 2022 17:43:55 GMT
+114 http request GET https://registry.npmjs.org/dom-serializer
+115 verbose request uri https://registry.npmjs.org/htmlparser2
+116 verbose request no auth needed
+117 info attempt registry request try #1 at 11:53:47 AM
+118 verbose etag W/"3b4b0436a20bf88edf13670918dd7b4b"
+119 verbose lastModified Sat, 18 Jun 2022 22:06:48 GMT
+120 http request GET https://registry.npmjs.org/htmlparser2
+121 verbose request uri https://registry.npmjs.org/parse5
+122 verbose request no auth needed
+123 info attempt registry request try #1 at 11:53:47 AM
+124 verbose etag W/"1317f6354aa32471e1891c8738d5e6de"
+125 verbose lastModified Thu, 23 Jun 2022 11:20:03 GMT
+126 http request GET https://registry.npmjs.org/parse5
+127 verbose request uri https://registry.npmjs.org/parse5-htmlparser2-tree-adapter
+128 verbose request no auth needed
+129 info attempt registry request try #1 at 11:53:47 AM
+130 verbose etag W/"aa1f969ff1a92f2bee2ff51c43ce1828"
+131 verbose lastModified Thu, 12 May 2022 14:55:14 GMT
+132 http request GET https://registry.npmjs.org/parse5-htmlparser2-tree-adapter
+133 http 304 https://registry.npmjs.org/domhandler
+134 verbose headers { date: 'Fri, 08 Jul 2022 16:53:47 GMT',
+134 verbose headers   connection: 'keep-alive',
+134 verbose headers   'cf-ray': '727a568c0fef9efe-DFW',
+134 verbose headers   age: '209',
+134 verbose headers   'cache-control': 'public, max-age=300',
+134 verbose headers   etag: '"398d708ca6cb9d1e4b2a07525b80e395"',
+134 verbose headers   'last-modified': 'Wed, 15 Jun 2022 21:38:34 GMT',
+134 verbose headers   vary: 'Accept-Encoding',
+134 verbose headers   'cf-cache-status': 'HIT',
+134 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+134 verbose headers   'x-amz-replication-status': 'PENDING',
+134 verbose headers   server: 'cloudflare' }
+135 silly get cb [ 304,
+135 silly get   { date: 'Fri, 08 Jul 2022 16:53:47 GMT',
+135 silly get     connection: 'keep-alive',
+135 silly get     'cf-ray': '727a568c0fef9efe-DFW',
+135 silly get     age: '209',
+135 silly get     'cache-control': 'public, max-age=300',
+135 silly get     etag: '"398d708ca6cb9d1e4b2a07525b80e395"',
+135 silly get     'last-modified': 'Wed, 15 Jun 2022 21:38:34 GMT',
+135 silly get     vary: 'Accept-Encoding',
+135 silly get     'cf-cache-status': 'HIT',
+135 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+135 silly get     'x-amz-replication-status': 'PENDING',
+135 silly get     server: 'cloudflare' } ]
+136 verbose etag https://registry.npmjs.org/domhandler from cache
+137 verbose get saving domhandler to /home/vladimir/.npm/registry.npmjs.org/domhandler/.cache.json
+138 silly resolveWithNewModule domhandler@5.0.3 checking installable status
+139 silly cache add args [ 'domhandler@^5.0.3', null ]
+140 verbose cache add spec domhandler@^5.0.3
+141 silly cache add parsed spec Result {
+141 silly cache add   raw: 'domhandler@^5.0.3',
+141 silly cache add   scope: null,
+141 silly cache add   name: 'domhandler',
+141 silly cache add   rawSpec: '^5.0.3',
+141 silly cache add   spec: '>=5.0.3 <6.0.0',
+141 silly cache add   type: 'range' }
+142 silly addNamed domhandler@>=5.0.3 <6.0.0
+143 verbose addNamed ">=5.0.3 <6.0.0" is a valid semver range for domhandler
+144 silly addNameRange { name: 'domhandler', range: '>=5.0.3 <6.0.0', hasData: false }
+145 silly mapToRegistry name domhandler
+146 silly mapToRegistry using default registry
+147 silly mapToRegistry registry https://registry.npmjs.org/
+148 silly mapToRegistry uri https://registry.npmjs.org/domhandler
+149 verbose addNameRange registry:https://registry.npmjs.org/domhandler not in flight; fetching
+150 verbose get https://registry.npmjs.org/domhandler not expired, no request
+151 silly addNameRange number 2 { name: 'domhandler', range: '>=5.0.3 <6.0.0', hasData: true }
+152 silly addNameRange versions [ 'domhandler',
+152 silly addNameRange   [ '1.0.0',
+152 silly addNameRange     '1.0.1',
+152 silly addNameRange     '1.1.0',
+152 silly addNameRange     '1.2.0',
+152 silly addNameRange     '1.3.0',
+152 silly addNameRange     '1.3.1',
+152 silly addNameRange     '1.3.2',
+152 silly addNameRange     '2.0.0',
+152 silly addNameRange     '2.0.1',
+152 silly addNameRange     '2.0.2',
+152 silly addNameRange     '2.0.3',
+152 silly addNameRange     '2.1.0',
+152 silly addNameRange     '2.2.0',
+152 silly addNameRange     '2.2.1',
+152 silly addNameRange     '2.3.0',
+152 silly addNameRange     '2.4.0',
+152 silly addNameRange     '2.4.1',
+152 silly addNameRange     '2.4.2',
+152 silly addNameRange     '3.0.0',
+152 silly addNameRange     '3.1.0',
+152 silly addNameRange     '3.2.0',
+152 silly addNameRange     '3.3.0',
+152 silly addNameRange     '4.0.0',
+152 silly addNameRange     '4.1.0',
+152 silly addNameRange     '4.2.0',
+152 silly addNameRange     '4.2.1',
+152 silly addNameRange     '4.2.2',
+152 silly addNameRange     '4.3.0',
+152 silly addNameRange     '4.3.1',
+152 silly addNameRange     '5.0.0',
+152 silly addNameRange     '5.0.1',
+152 silly addNameRange     '5.0.2',
+152 silly addNameRange     '5.0.3' ] ]
+153 silly addNamed domhandler@5.0.3
+154 verbose addNamed "5.0.3" is a plain semver version for domhandler
+155 http 304 https://registry.npmjs.org/parse5
+156 verbose headers { date: 'Fri, 08 Jul 2022 16:53:47 GMT',
+156 verbose headers   connection: 'keep-alive',
+156 verbose headers   'cf-ray': '727a568c6c6f288f-DFW',
+156 verbose headers   age: '162',
+156 verbose headers   'cache-control': 'public, max-age=300',
+156 verbose headers   etag: '"1317f6354aa32471e1891c8738d5e6de"',
+156 verbose headers   'last-modified': 'Thu, 23 Jun 2022 11:20:03 GMT',
+156 verbose headers   vary: 'Accept-Encoding',
+156 verbose headers   'cf-cache-status': 'HIT',
+156 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+156 verbose headers   'x-amz-replication-status': 'COMPLETED',
+156 verbose headers   server: 'cloudflare' }
+157 silly get cb [ 304,
+157 silly get   { date: 'Fri, 08 Jul 2022 16:53:47 GMT',
+157 silly get     connection: 'keep-alive',
+157 silly get     'cf-ray': '727a568c6c6f288f-DFW',
+157 silly get     age: '162',
+157 silly get     'cache-control': 'public, max-age=300',
+157 silly get     etag: '"1317f6354aa32471e1891c8738d5e6de"',
+157 silly get     'last-modified': 'Thu, 23 Jun 2022 11:20:03 GMT',
+157 silly get     vary: 'Accept-Encoding',
+157 silly get     'cf-cache-status': 'HIT',
+157 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+157 silly get     'x-amz-replication-status': 'COMPLETED',
+157 silly get     server: 'cloudflare' } ]
+158 verbose etag https://registry.npmjs.org/parse5 from cache
+159 verbose get saving parse5 to /home/vladimir/.npm/registry.npmjs.org/parse5/.cache.json
+160 silly cache afterAdd domhandler@5.0.3
+161 verbose afterAdd /home/vladimir/.npm/domhandler/5.0.3/package/package.json not in flight; writing
+162 http 304 https://registry.npmjs.org/cheerio-select
+163 verbose headers { date: 'Fri, 08 Jul 2022 16:53:47 GMT',
+163 verbose headers   connection: 'keep-alive',
+163 verbose headers   'cf-ray': '727a568c4bf593d4-DFW',
+163 verbose headers   age: '87',
+163 verbose headers   'cache-control': 'public, max-age=300',
+163 verbose headers   etag: '"57c9b34132512e528c63d915c5ed6bdc"',
+163 verbose headers   'last-modified': 'Sat, 18 Jun 2022 12:09:20 GMT',
+163 verbose headers   vary: 'Accept-Encoding',
+163 verbose headers   'cf-cache-status': 'HIT',
+163 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+163 verbose headers   'x-amz-replication-status': 'COMPLETED',
+163 verbose headers   server: 'cloudflare' }
+164 silly get cb [ 304,
+164 silly get   { date: 'Fri, 08 Jul 2022 16:53:47 GMT',
+164 silly get     connection: 'keep-alive',
+164 silly get     'cf-ray': '727a568c4bf593d4-DFW',
+164 silly get     age: '87',
+164 silly get     'cache-control': 'public, max-age=300',
+164 silly get     etag: '"57c9b34132512e528c63d915c5ed6bdc"',
+164 silly get     'last-modified': 'Sat, 18 Jun 2022 12:09:20 GMT',
+164 silly get     vary: 'Accept-Encoding',
+164 silly get     'cf-cache-status': 'HIT',
+164 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+164 silly get     'x-amz-replication-status': 'COMPLETED',
+164 silly get     server: 'cloudflare' } ]
+165 verbose etag https://registry.npmjs.org/cheerio-select from cache
+166 verbose get saving cheerio-select to /home/vladimir/.npm/registry.npmjs.org/cheerio-select/.cache.json
+167 verbose afterAdd /home/vladimir/.npm/domhandler/5.0.3/package/package.json written
+168 http 304 https://registry.npmjs.org/htmlparser2
+169 verbose headers { date: 'Fri, 08 Jul 2022 16:53:47 GMT',
+169 verbose headers   connection: 'keep-alive',
+169 verbose headers   'cf-ray': '727a568c6d56675b-DFW',
+169 verbose headers   age: '149',
+169 verbose headers   'cache-control': 'public, max-age=300',
+169 verbose headers   etag: '"3b4b0436a20bf88edf13670918dd7b4b"',
+169 verbose headers   'last-modified': 'Sat, 18 Jun 2022 22:06:48 GMT',
+169 verbose headers   vary: 'Accept-Encoding',
+169 verbose headers   'cf-cache-status': 'HIT',
+169 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+169 verbose headers   'x-amz-replication-status': 'PENDING',
+169 verbose headers   server: 'cloudflare' }
+170 silly get cb [ 304,
+170 silly get   { date: 'Fri, 08 Jul 2022 16:53:47 GMT',
+170 silly get     connection: 'keep-alive',
+170 silly get     'cf-ray': '727a568c6d56675b-DFW',
+170 silly get     age: '149',
+170 silly get     'cache-control': 'public, max-age=300',
+170 silly get     etag: '"3b4b0436a20bf88edf13670918dd7b4b"',
+170 silly get     'last-modified': 'Sat, 18 Jun 2022 22:06:48 GMT',
+170 silly get     vary: 'Accept-Encoding',
+170 silly get     'cf-cache-status': 'HIT',
+170 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+170 silly get     'x-amz-replication-status': 'PENDING',
+170 silly get     server: 'cloudflare' } ]
+171 verbose etag https://registry.npmjs.org/htmlparser2 from cache
+172 verbose get saving htmlparser2 to /home/vladimir/.npm/registry.npmjs.org/htmlparser2/.cache.json
+173 verbose stack Error: Missing required argument #1
+173 verbose stack     at andLogAndFinish (/usr/share/npm/lib/fetch-package-metadata.js:31:3)
+173 verbose stack     at fetchPackageMetadata (/usr/share/npm/lib/fetch-package-metadata.js:51:22)
+173 verbose stack     at resolveWithNewModule (/usr/share/npm/lib/install/deps.js:456:12)
+173 verbose stack     at /usr/share/npm/lib/install/deps.js:457:7
+173 verbose stack     at /usr/share/npm/node_modules/iferr/index.js:13:50
+173 verbose stack     at /usr/share/npm/lib/fetch-package-metadata.js:37:12
+173 verbose stack     at addRequestedAndFinish (/usr/share/npm/lib/fetch-package-metadata.js:82:5)
+173 verbose stack     at returnAndAddMetadata (/usr/share/npm/lib/fetch-package-metadata.js:117:7)
+173 verbose stack     at pickVersionFromRegistryDocument (/usr/share/npm/lib/fetch-package-metadata.js:134:20)
+173 verbose stack     at /usr/share/npm/node_modules/iferr/index.js:13:50
+174 verbose cwd /mnt/d/art-api
+175 error Linux 4.4.0-18362-Microsoft
+176 error argv "/usr/bin/node" "/usr/bin/npm" "i" "cheerio"
+177 error node v8.10.0
+178 error npm  v3.5.2
+179 error code EMISSINGARG
+180 error typeerror Error: Missing required argument #1
+180 error typeerror     at andLogAndFinish (/usr/share/npm/lib/fetch-package-metadata.js:31:3)
+180 error typeerror     at fetchPackageMetadata (/usr/share/npm/lib/fetch-package-metadata.js:51:22)
+180 error typeerror     at resolveWithNewModule (/usr/share/npm/lib/install/deps.js:456:12)
+180 error typeerror     at /usr/share/npm/lib/install/deps.js:457:7
+180 error typeerror     at /usr/share/npm/node_modules/iferr/index.js:13:50
+180 error typeerror     at /usr/share/npm/lib/fetch-package-metadata.js:37:12
+180 error typeerror     at addRequestedAndFinish (/usr/share/npm/lib/fetch-package-metadata.js:82:5)
+180 error typeerror     at returnAndAddMetadata (/usr/share/npm/lib/fetch-package-metadata.js:117:7)
+180 error typeerror     at pickVersionFromRegistryDocument (/usr/share/npm/lib/fetch-package-metadata.js:134:20)
+180 error typeerror     at /usr/share/npm/node_modules/iferr/index.js:13:50
+181 error typeerror This is an error with npm itself. Please report this error at:
+181 error typeerror     <http://github.com/npm/npm/issues>
+182 verbose exit [ 1, true ]
