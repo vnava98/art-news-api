@@ -20,7 +20,7 @@ const newspapers = [
     {
         name: 'telegraph',
         address: 'https://www.telegraph.co.uk/art/',
-        base: 'https//www.telegraph.co.uk'
+        base: ''
     }
 ]
 
