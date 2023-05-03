@@ -80,8 +80,3 @@ app.get('/news/:newspaperId', (req, res) => {
 })
 
 app.listen(PORT, () => console.log('server running on PORT ' + PORT));
-
-/*
-Build and sell your own API $$$ (super simple!)
-30:39 min mark
-*/
